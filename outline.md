@@ -27,6 +27,9 @@
         2. Basic collision detection
 3. Game 2 - Virtual Pet
     1. Creating your pet  - Goal: A different way of modeling: subsystems
+        1. What is a subsytem
+            1. The API
+            2. Adding to the engine
     2. Your pet gets hungry  - Goal: UI elements
     3. Your pet wants to play  - Goal: Mouse interaction
     4. Your pet gets dirty  - Goal: Putting it all together
