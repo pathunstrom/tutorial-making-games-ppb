@@ -31,5 +31,9 @@
             1. The API
             2. Adding to the engine
     2. Your pet gets hungry  - Goal: UI elements
-    3. Your pet wants to play  - Goal: Mouse interaction
-    4. Your pet gets dirty  - Goal: Putting it all together
+        1. Define the events
+        2. Add the stat to the subsystem.
+        3. Add the UI button.
+        4. Wire the button to drop the food.
+        5. Simulate the food falling
+        6. Throwing the event when the food is eaten.
