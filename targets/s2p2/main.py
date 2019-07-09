@@ -2,7 +2,9 @@ import ppb
 
 
 class Player(ppb.BaseSprite):
-    pass
+    position = ppb.Vector(0, 0)
+    velocity = ppb.Vector(0, 0)
+    speed = 4
 
 
 def setup(scene):
