@@ -27,3 +27,6 @@
 10. Shoot event
     - dataclasses
     - the signal function
+11. Add targets
+    - scene.get(kind=)
+    - collision detection
