@@ -17,6 +17,13 @@
     - Vectors!
     - keycodes
 7. invert for key_released
-8. on_update
+8. Player.on_update
     - Update pattern
     - Game units
+9. Projectile
+    - size attribute
+    - Same basic simulation, except we don't need to check for zero vector
+    - Add it to setup function 
+10. Shoot event
+    - dataclasses
+    - the signal function
