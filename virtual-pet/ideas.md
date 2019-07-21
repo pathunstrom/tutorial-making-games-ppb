@@ -6,13 +6,4 @@
     3. Throw an event when the button is clicked.
     4. Change score
     5. Play an animation
-4. Adding playing
-    1. Add stat
-    2. Add button
-    3. Use mouse motion to "interact"
-5. Add hygeine
-    1. Stat
-    2. Button
-    3. Use mouse
-6. Saving the pet
-    
+4. Saving the pet

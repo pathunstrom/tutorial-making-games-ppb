@@ -6,4 +6,7 @@ setup(
     packages=['virtual_pet'],
     install_requires=['ppb'],
     author='Piper',
+    entry_points={
+        'console_scripts': ['virtual_pet=virtual_pet.__main__:main']
+    }
 )

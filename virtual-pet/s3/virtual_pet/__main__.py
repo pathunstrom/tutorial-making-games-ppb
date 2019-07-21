@@ -1,8 +1,10 @@
 import ppb
 
+from virtual_pet.scenes import Game
+
 
 def main():
-    with ppb.GameEngine(ppb.BaseSprite) as ge:
+    with ppb.GameEngine(Game) as ge:
         ge.run()
 
 
