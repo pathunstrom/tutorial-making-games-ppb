@@ -14,3 +14,10 @@
     * make a scene
 4. Stats Subsystem
     * make system
+    * on_render debug
+    * hook into the engine
+5. Make the pet grow
+    * Add an event.
+    * Raise event when age changes
+    * Capture the event on your pet.
+    * math.log
