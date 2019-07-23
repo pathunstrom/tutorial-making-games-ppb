@@ -15,7 +15,7 @@ class PetStats(ppb.systems.System):
 
         self.age_counter += event.time_delta
         if self.age_counter >= one_tenth_age:
-            self.age += 1
+            self.age += 0.1
             self.age_counter -= one_tenth_age
             signal(Aged(self.age))
 
