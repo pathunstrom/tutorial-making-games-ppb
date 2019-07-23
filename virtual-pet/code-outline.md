@@ -38,6 +38,7 @@
     * Food button
         * on_button_pressed
         * Creating food
+    * Add UI button to Game scene
 9. Satiate your pet
     * FoodEaten event
     * Signal FoodEaten when pet eats food
