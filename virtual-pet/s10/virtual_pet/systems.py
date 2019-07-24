@@ -1,3 +1,5 @@
+import json
+
 import ppb
 
 from virtual_pet.events import Aged, GrowsHungry
@@ -35,3 +37,13 @@ class PetStats(ppb.systems.System):
 
     def on_food_eaten(self, event, signal):
         self.hunger += food_value
+
+    def on_quit(self, event, signal):
+        data = {
+            "age": self.age,
+            "age_counter": self.age_counter,
+            "hunger": self.hunger,
+            "hunger_counter": self.hunger_counter
+        }
+        with open("./save_file.json", "w") as save_file:
+            json.dump(data, save_file)
